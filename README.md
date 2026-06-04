@@ -3,6 +3,10 @@
 This directory is a clean GitHub upload candidate that only keeps the code
 needed to train and deploy the CHIP policy.
 
+## Demo
+
+[![CHIP demo](docs/demo/chip-cover.png)](docs/demo/chip.mp4)
+
 ## Upstream bases
 
 - mjlab: https://github.com/mujocolab/mjlab at commit `a0ba058`
@@ -30,10 +34,6 @@ needed to train and deploy the CHIP policy.
 Push this directory as a new repo. Keep only code in Git. Put large checkpoints,
 motion files, and local SDK trees in GitHub Releases, cloud storage, or Git LFS
 only if you truly need versioning for them.
-
-## Demo
-
-[![CHIP demo](docs/demo/chip-cover.png)](docs/demo/chip.mp4)
 
 ## Apply the overlays
 
