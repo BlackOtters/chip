@@ -5,7 +5,7 @@ needed to train and deploy the CHIP policy.
 
 ## Demo
 
-[![CHIP demo](docs/demo/chip-cover.png)](docs/demo/chip.mp4)
+[![CHIP demo](docs/demo/chip-cover.png)](https://blackotters.github.io/chip/demo/)
 
 ## Upstream bases
 

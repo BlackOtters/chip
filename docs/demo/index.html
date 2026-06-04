@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHIP Demo</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0b1220;
+        --panel: rgba(15, 23, 42, 0.9);
+        --text: #e5edf7;
+        --muted: #9fb0c7;
+        --accent: #7dd3fc;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at top, rgba(125, 211, 252, 0.18), transparent 35%),
+          linear-gradient(180deg, #09111d, #02060d 70%);
+        color: var(--text);
+        font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      main {
+        width: min(960px, calc(100vw - 32px));
+        padding: 24px;
+        border: 1px solid rgba(159, 176, 199, 0.18);
+        border-radius: 20px;
+        background: var(--panel);
+        box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(28px, 5vw, 44px);
+      }
+
+      p {
+        margin: 0 0 20px;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      video {
+        width: 100%;
+        display: block;
+        border-radius: 14px;
+        background: #000;
+      }
+
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>CHIP Demo</h1>
+      <p>
+        If playback does not start in your browser, use
+        <a href="./chip.mp4">the direct MP4 link</a>.
+      </p>
+      <video controls preload="metadata" poster="./chip-cover.png">
+        <source src="./chip.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </main>
+  </body>
+</html>
