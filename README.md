@@ -31,6 +31,10 @@ Push this directory as a new repo. Keep only code in Git. Put large checkpoints,
 motion files, and local SDK trees in GitHub Releases, cloud storage, or Git LFS
 only if you truly need versioning for them.
 
+## Demo
+
+[![CHIP demo](docs/demo/chip-cover.png)](docs/demo/chip.mp4)
+
 ## Apply the overlays
 
 ```bash
