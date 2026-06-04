@@ -1,0 +1,4 @@
+mjlab_repo=https://github.com/mujocolab/mjlab.git
+mjlab_commit=a0ba058
+robojudo_repo=https://github.com/HansZ8/RoboJuDo.git
+robojudo_commit=ed7601f
